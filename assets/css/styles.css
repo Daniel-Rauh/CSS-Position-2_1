@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    font-size: 16px;
+}
+section{
+    height: 100vh;
+    width: 100%;
+    background: rgb(238, 240, 228);
+    position: relative;
+}
+h1{
+    font-family: 'Playfair Display', serif;
+    text-transform: capitalize;
+    margin: 0;
+    width: 25%;
+    line-height: 1.5em;
+    font-size: 2.5rem;
+    position: absolute;
+    top: 25%;
+    left: 15%;
+}
+p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.85rem;
+    line-height: 1.5em;
+    width: 35%;
+    margin: 0;
+    position: absolute;
+    top: 45%;
+    left: 15%;
+}
+section div:first-child{
+    background-color: #F5AB41;
+    width: 25%;
+    height: 5vh;
+    border-radius: 20px;
+    position: absolute;
+    top: 60%;
+    left: 15%;
+}
+a{
+    font-family: 'Playfair Display', serif;
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: #000;
+    text-align: center;
+    text-transform: capitalize;
+    position: absolute;
+    left: 33%;
+    top: 15%;
+}
+a:hover{
+    text-decoration: underline;
+}
+section div:last-child{
+    background: url(https://cdn.dribbble.com/users/1789165/screenshots/6819197/attachments/1455528/____.png) center/cover no-repeat;
+    position: relative;
+    width: 50%;
+    height: 75vh;
+    left: 50%;
+}
